@@ -1,6 +1,6 @@
 # Go Web Scraper
 
-A simple web scraping application written in **Go (Golang)** that collects article titles and URLs from [Hacker News](https://news.ycombinator.com/).
+A simple web scraping application written in **Go** that collects article titles and URLs from [Hacker News](https://news.ycombinator.com/).
 
 The application uses Go's standard `net/http` package to send HTTP requests and the `goquery` library to parse HTML and extract information using CSS selectors. The collected data is displayed in the terminal and exported to a CSV file.
 
